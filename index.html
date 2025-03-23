@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KishGlobal - Manufacturing Hub</title>
+    <meta name="description" content="Building a global manufacturing powerhouse with 1444 factories across 12 diverse categories, shipping premium products from Kish Island to the world." />
+    <meta name="author" content="KishGlobal" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+
+
+          <!-- Mobile Menu Button -->
+          <button id="mobileMenuBtn" class="md:hidden text-gray-700">
+            <i data-lucide="menu" class="h-6 w-6"></i>
+          </button>
+        </div>
+      </div>
+
+
+
+    <main>
+      <!-- Hero Section -->
+      <div class="relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 right-0 w-1/2 h-screen bg-gradient-to-bl from-kish-blue/10 to-transparent -z-10"></div>
+        <div class="absolute bottom-0 left-0 w-1/2 h-screen bg-gradient-to-tr from-kish-purple/10 to-transparent -z-10"></div>
+        
+        <div class="container mx-auto px-4 pt-32 pb-16 md:pb-24 lg:pt-40 lg:pb-32">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 md:space-y-8">
+              <div class="animate-on-scroll opacity-0 delay-75">
+                <span class="px-4 py-2 rounded-full bg-kish-blue/10 text-kish-blue font-medium text-sm">
+                  Global Manufacturing Hub
+                </span>
+              </div>
+              
+              <h1 class="animate-on-scroll opacity-0 text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight">
+                From <span class="text-kish-blue">Kish Island</span> to the <span class="text-kish-purple">Entire World</span>
+              </h1>
+              
+              <p class="animate-on-scroll opacity-0 delay-150 text-lg md:text-xl text-gray-600 max-w-xl">
+                Launching 1444 factories across various industries to manufacture and distribute premium products globally.
+              </p>
+              
+              <div class="animate-on-scroll opacity-0 delay-300 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
+                <a href="products.html" class="px-8 py-3 bg-gradient-to-r from-kish-blue to-kish-purple text-white rounded-full font-medium flex items-center justify-center group transition-all duration-300 hover:shadow-lg shadow-kish-blue/20">
+                  Explore Products
+                  <i data-lucide="arrow-right" class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"></i>
+                </a>
+                <a href="about.html" class="px-8 py-3 border-2 border-gray-300 hover:border-kish-blue text-gray-800 hover:text-kish-blue rounded-full font-medium flex items-center justify-center transition-colors duration-300">
+                  Learn More
+                </a>
+              </div>
+            </div>
+            
+            <div class="animate-on-scroll opacity-0 delay-500">
+              <div class="relative">
+                <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                    alt="Kish Island Manufacturing Hub" 
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                
+                <!-- Floating Cards -->
+                <div class="absolute -left-16 top-1/4 glass-card rounded-xl p-4 shadow-lg animate-float">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-kish-blue/10 flex items-center justify-center">
+                      <i data-lucide="factory" class="h-5 w-5 text-kish-blue"></i>
+                    </div>
+                    <div>
+                      <p class="font-medium">1444 Factories</p>
+                      <p class="text-sm text-gray-500">In Development</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="absolute -right-12 bottom-1/4 glass-card rounded-xl p-4 shadow-lg animate-float animation-delay-1000">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-kish-purple/10 flex items-center justify-center">
+                      <i data-lucide="globe" class="h-5 w-5 text-kish-purple"></i>
+                    </div>
+                    <div>
+                      <p class="font-medium">Global Reach</p>
+                      <p class="text-sm text-gray-500">200+ Countries</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="absolute -bottom-10 left-1/4 glass-card rounded-xl p-4 shadow-lg animate-float animation-delay-2000">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-kish-orange/10 flex items-center justify-center">
+                      <i data-lucide="truck" class="h-5 w-5 text-kish-orange"></i>
+                    </div>
+                    <div>
+                      <p class="font-medium">Global Shipping</p>
+                      <p class="text-sm text-gray-500">Fast & Reliable</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Stats Section -->
+        <div class="container mx-auto px-4 pb-16 md:pb-24">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-12">
+            <div class="animate-on-scroll opacity-0 glass-card rounded-xl p-6 text-center space-y-3 hover-card">
+              <div class="mx-auto w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+                <i data-lucide="factory" class="h-6 w-6 text-kish-blue"></i>
+              </div>
+              <div class="text-3xl font-bold font-display">1444</div>
+              <div class="text-gray-600">Factories</div>
+            </div>
+            
+            <div class="animate-on-scroll opacity-0 glass-card rounded-xl p-6 text-center space-y-3 hover-card" style="animation-delay: 100ms">
+              <div class="mx-auto w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+                <i data-lucide="package" class="h-6 w-6 text-kish-purple"></i>
+              </div>
+              <div class="text-3xl font-bold font-display">12</div>
+              <div class="text-gray-600">Categories</div>
+            </div>
+            
+            <div class="animate-on-scroll opacity-0 glass-card rounded-xl p-6 text-center space-y-3 hover-card" style="animation-delay: 200ms">
+              <div class="mx-auto w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+                <i data-lucide="globe" class="h-6 w-6 text-kish-teal"></i>
+              </div>
+              <div class="text-3xl font-bold font-display">200+</div>
+              <div class="text-gray-600">Countries</div>
+            </div>
+            
+            <div class="animate-on-scroll opacity-0 glass-card rounded-xl p-6 text-center space-y-3 hover-card" style="animation-delay: 300ms">
+              <div class="mx-auto w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+                <i data-lucide="truck" class="h-6 w-6 text-kish-orange"></i>
+              </div>
+              <div class="text-3xl font-bold font-display">24/7</div>
+              <div class="text-gray-600">Operations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Categories Section -->
+      <section id="product-categories" class="py-16 md:py-24 bg-gray-50 relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-white to-transparent"></div>
+        <div class="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-t from-white to-transparent"></div>
+        <div class="absolute top-0 right-0 w-64 h-64 bg-kish-blue/10 rounded-full filter blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-kish-purple/10 rounded-full filter blur-3xl"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="text-center mb-16 max-w-2xl mx-auto">
+            <div class="animate-on-scroll opacity-0">
+              <span class="px-4 py-2 rounded-full bg-kish-purple/10 text-kish-purple font-medium text-sm">
+                Product Portfolio
+              </span>
+            </div>
+            <h2 class="animate-on-scroll opacity-0 mt-4 text-3xl md:text-4xl font-bold font-display">
+              Diverse Categories for Global Demands
+            </h2>
+            <p class="animate-on-scroll opacity-0 mt-4 text-gray-600 text-lg">
+              We're manufacturing premium products across 12 diverse categories, catering to global markets with the highest quality standards.
+            </p>
+          </div>
+          
+          <div id="categories-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8">
+            <!-- Categories will be loaded by JavaScript -->
+          </div>
+          
+          <div class="mt-16 text-center animate-on-scroll opacity-0">
+            <a 
+              href="products.html" 
+              class="px-8 py-3 bg-white text-kish-blue border-2 border-kish-blue hover:bg-kish-blue hover:text-white rounded-full font-medium transition-colors duration-300 inline-flex items-center"
+            >
+              View All Categories
+              <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Global Reach Section -->
+      <section class="py-16 md:py-24 relative overflow-hidden">
+        <!-- Background overlay -->
+        <div class="absolute inset-0 bg-gradient-to-br from-kish-blue/5 to-kish-purple/5"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="animate-on-scroll opacity-0">
+              <div class="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                  alt="Global Distribution Network" 
+                  class="rounded-xl shadow-xl"
+                />
+                
+                <!-- Overlay elements -->
+                <div class="absolute top-1/4 -right-12 glass-card p-4 rounded-xl shadow-lg animate-float">
+                  <div class="flex items-center">
+                    <div class="w-10 h-10 bg-kish-blue/10 rounded-full flex items-center justify-center mr-3">
+                      <i data-lucide="globe" class="h-5 w-5 text-kish-blue"></i>
+                    </div>
+                    <div>
+                      <div class="font-medium">Dubai Hub</div>
+                      <div class="text-xs text-gray-500">Global Distribution</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="absolute bottom-1/4 -left-12 glass-card p-4 rounded-xl shadow-lg animate-float delay-500">
+                  <div class="flex items-center">
+                    <div class="w-10 h-10 bg-kish-purple/10 rounded-full flex items-center justify-center mr-3">
+                      <i data-lucide="truck" class="h-5 w-5 text-kish-purple"></i>
+                    </div>
+                    <div>
+                      <div class="font-medium">Kish Island</div>
+                      <div class="text-xs text-gray-500">Manufacturing Base</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Animated route lines -->
+                <svg class="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <path 
+                    d="M30,30 Q50,10 70,30" 
+                    fill="none" 
+                    stroke="#0EA5E9" 
+                    stroke-width="0.5" 
+                    stroke-dasharray="3,3"
+                    class="animate-pulse-slow"
+                  ></path>
+                  <path 
+                    d="M70,30 Q80,50 70,70" 
+                    fill="none" 
+                    stroke="#8B5CF6" 
+                    stroke-width="0.5" 
+                    stroke-dasharray="3,3"
+                    class="animate-pulse-slow"
+                  ></path>
+                  <path 
+                    d="M70,70 Q50,90 30,70" 
+                    fill="none" 
+                    stroke="#EC4899" 
+                    stroke-width="0.5" 
+                    stroke-dasharray="3,3"
+                    class="animate-pulse-slow"
+                  ></path>
+                  <path 
+                    d="M30,70 Q20,50 30,30" 
+                    fill="none" 
+                    stroke="#F97316" 
+                    stroke-width="0.5" 
+                    stroke-dasharray="3,3"
+                    class="animate-pulse-slow"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            
+            <div class="space-y-6">
+              <div class="animate-on-scroll opacity-0">
+                <span class="px-4 py-2 rounded-full bg-kish-blue/10 text-kish-blue font-medium text-sm">
+                  Global Distribution
+                </span>
+              </div>
+              
+              <h2 class="animate-on-scroll opacity-0 text-3xl md:text-4xl font-bold font-display">
+                From Kish to Dubai to the World
+              </h2>
+              
+              <p class="animate-on-scroll opacity-0 delay-100 text-lg text-gray-600 max-w-xl">
+                Strategically positioned in the heart of the Persian Gulf, our manufacturing hub in Kish Island connects to Dubai's world-class logistics network to reach global markets with speed and efficiency.
+              </p>
+              
+              <div class="animate-on-scroll opacity-0 delay-200 space-y-4">
+                <div class="flex items-start">
+                  <div class="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center mr-4">
+                    <i data-lucide="globe" class="h-5 w-5 text-kish-blue"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-medium text-lg text-gray-900">Strategic Location</h3>
+                    <p class="text-gray-600">Kish Island provides an ideal location with proximity to major shipping routes.</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center mr-4">
+                    <i data-lucide="truck" class="h-5 w-5 text-kish-purple"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-medium text-lg text-gray-900">Dubai Logistics Hub</h3>
+                    <p class="text-gray-600">Leveraging Dubai's world-class infrastructure for global distribution.</p>
+                  </div>
+                </div>
+                
+                <div class="flex items-start">
+                  <div class="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center mr-4">
+                    <i data-lucide="package" class="h-5 w-5 text-kish-teal"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-medium text-lg text-gray-900">Worldwide Delivery</h3>
+                    <p class="text-gray-600">Efficient shipping solutions to over 200 countries around the globe.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="animate-on-scroll opacity-0 delay-300 pt-4">
+                <a href="about.html" class="inline-flex items-center text-kish-blue hover:text-kish-purple font-medium">
+                  Learn More About Our Logistics
+                  <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Global map with points -->
+        <div class="container mx-auto px-4 mt-16 md:mt-24">
+          <div class="animate-on-scroll opacity-0 text-center max-w-2xl mx-auto mb-12">
+            <h3 class="text-2xl md:text-3xl font-bold font-display">Our Global Coverage</h3>
+            <p class="mt-4 text-gray-600">
+              With distribution centers on multiple continents, we ensure fast and reliable delivery to customers worldwide.
+            </p>
+          </div>
+          
+          <div class="animate-on-scroll opacity-0 relative h-96 md:h-[500px] bg-gray-100 rounded-xl overflow-hidden shadow-inner">
+            <img 
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="World Map" 
+              class="w-full h-full object-cover opacity-20"
+            />
+            
+            <!-- Map points and connections will be added by JavaScript -->
+            <div id="map-points" class="absolute inset-0 p-8">
+              <!-- Map points will be loaded by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="py-16 md:py-24 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+        <!-- Background elements -->
+        <div class="absolute top-1/4 right-0 w-64 h-64 bg-kish-blue/5 rounded-full filter blur-3xl"></div>
+        <div class="absolute bottom-1/4 left-0 w-64 h-64 bg-kish-purple/5 rounded-full filter blur-3xl"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="animate-on-scroll opacity-0 order-2 lg:order-1">
+              <div class="relative">
+                <div class="rounded-2xl overflow-hidden shadow-xl">
+                  <img 
+                    src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                    alt="Factory workers" 
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                
+                <!-- Overlay cards -->
+                <div class="absolute -right-6 top-1/4 glass-card bg-white/90 p-4 rounded-xl shadow-lg max-w-[180px]">
+                  <div class="flex flex-col">
+                    <div class="w-10 h-10 bg-kish-blue/10 rounded-full flex items-center justify-center mb-3">
+                      <i data-lucide="factory" class="h-5 w-5 text-kish-blue"></i>
+                    </div>
+                    <span class="text-4xl font-bold text-kish-blue">1444</span>
+                    <span class="text-sm text-gray-600">Factories Planned</span>
+                  </div>
+                </div>
+                
+                <div class="absolute -left-6 bottom-1/4 glass-card bg-white/90 p-4 rounded-xl shadow-lg max-w-[180px]">
+                  <div class="flex flex-col">
+                    <div class="w-10 h-10 bg-kish-purple/10 rounded-full flex items-center justify-center mb-3">
+                      <i data-lucide="globe" class="h-5 w-5 text-kish-purple"></i>
+                    </div>
+                    <span class="text-4xl font-bold text-kish-purple">12</span>
+                    <span class="text-sm text-gray-600">Industry Categories</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="space-y-6 order-1 lg:order-2">
+              <div class="animate-on-scroll opacity-0">
+                <span class="px-4 py-2 rounded-full bg-kish-purple/10 text-kish-purple font-medium text-sm">
+                  About Our Vision
+                </span>
+              </div>
+              
+              <h2 class="animate-on-scroll opacity-0 text-3xl md:text-4xl font-bold font-display">
+                Building a Global Manufacturing Powerhouse
+              </h2>
+              
+              <p class="animate-on-scroll opacity-0 delay-100 text-lg text-gray-600">
+                Our ambitious project on Kish Island aims to establish 1444 factories across 12 diverse industry categories, creating a manufacturing hub that will supply premium products to global markets.
+              </p>
+              
+              <div class="animate-on-scroll opacity-0 delay-200 space-y-4 mt-6">
+                <div class="flex items-center">
+                  <i data-lucide="check-circle" class="h-5 w-5 text-kish-blue mr-3 flex-shrink-0"></i>
+                  <span>State-of-the-art production facilities</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="check-circle" class="h-5 w-5 text-kish-blue mr-3 flex-shrink-0"></i>
+                  <span>Commitment to quality and innovation</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="check-circle" class="h-5 w-5 text-kish-blue mr-3 flex-shrink-0"></i>
+                  <span>Environmentally conscious manufacturing</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="check-circle" class="h-5 w-5 text-kish-blue mr-3 flex-shrink-0"></i>
+                  <span>Cutting-edge technology integration</span>
+                </div>
+                <div class="flex items-center">
+                  <i data-lucide="check-circle" class="h-5 w-5 text-kish-blue mr-3 flex-shrink-0"></i>
+                  <span>Strategic global distribution network</span>
+                </div>
+              </div>
+              
+              <div class="animate-on-scroll opacity-0 delay-300 mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="glass-card p-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-gray-100">
+                  <div class="w-10 h-10 rounded-full bg-kish-blue/10 flex items-center justify-center mb-3">
+                    <i data-lucide="shield-check" class="h-5 w-5 text-kish-blue"></i>
+                  </div>
+                  <h3 class="font-bold">Quality Commitment</h3>
+                  <p class="text-sm text-gray-600 mt-2">
+                    We maintain the highest standards in every product we manufacture.
+                  </p>
+                </div>
+                
+                <div class="glass-card p-4 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-gray-100">
+                  <div class="w-10 h-10 rounded-full bg-kish-purple/10 flex items-center justify-center mb-3">
+                    <i data-lucide="globe" class="h-5 w-5 text-kish-purple"></i>
+                  </div>
+                  <h3 class="font-bold">Global Impact</h3>
+                  <p class="text-sm text-gray-600 mt-2">
+                    Our products reach customers in over 200 countries worldwide.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="animate-on-scroll opacity-0 delay-400 pt-6">
+                <a 
+                  href="about.html" 
+                  class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-kish-blue to-kish-purple text-white rounded-full font-medium transition-all hover:shadow-lg"
+                >
+                  Learn More About Us
+                  <i data-lucide="arrow-right" class="ml-2 h-5 w-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="space-y-4">
+            <div class="flex items-center space-x-2">
+              <div class="w-10 h-10 rounded-full bg-gradient-to-br from-kish-blue to-kish-purple flex items-center justify-center">
+                <i data-lucide="globe" class="w-6 h-6 text-white"></i>
+              </div>
+              <div class="text-xl font-display font-bold text-white">
+                KishGlobal
+              </div>
+            </div>
+            <p class="text-gray-400">
+              Building a global manufacturing powerhouse with 1444 factories across 12 diverse categories, shipping premium products from Kish Island to the world.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center transition-colors hover:bg-gray-700">
+                <span class="sr-only">Facebook</span>
+                <i data-lucide="facebook" class="h-5 w-5"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center transition-colors hover:bg-gray-700">
+                <span class="sr-only">Twitter</span>
+                <i data-lucide="twitter" class="h-5 w-5"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center transition-colors hover:bg-gray-700">
+                <span class="sr-only">Instagram</span>
+                <i data-lucide="instagram" class="h-5 w-5"></i>
+              </a>
+              <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center transition-colors hover:bg-gray-700">
+                <span class="sr-only">LinkedIn</span>
+                <i data-lucide="linkedin" class="h-5 w-5"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-bold text-white mb-4">Our Categories</h3>
+            <ul class="space-y-2">
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Food & Beverage</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Personal Care & Hygiene</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Home Care Products</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Health & Wellness</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Mother, Baby & Kids</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Beauty & Cosmetics</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-bold text-white mb-4">Useful Links</h3>
+            <ul class="space-y-2">
+              <li><a href="about.html" class="hover:text-white hover:underline transition-colors">About Us</a></li>
+              <li><a href="products.html" class="hover:text-white hover:underline transition-colors">Our Products</a></li>
+              <li><a href="contact.html" class="hover:text-white hover:underline transition-colors">Contact Us</a></li>
+              <li><a href="about.html" class="hover:text-white hover:underline transition-colors">Global Distribution</a></li>
+              <li><a href="about.html" class="hover:text-white hover:underline transition-colors">Careers</a></li>
+              <li><a href="about.html" class="hover:text-white hover:underline transition-colors">Privacy Policy</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-bold text-white mb-4">Contact Us</h3>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <i data-lucide="map-pin" class="h-5 w-5 text-kish-blue mr-3 mt-0.5"></i>
+                <span>Kish Island, Hormozgan Province, Iran</span>
+              </li>
+              <li class="flex items-start">
+                <i data-lucide="phone" class="h-5 w-5 text-kish-blue mr-3 mt-0.5"></i>
+                <span>+98 123 456 7890</span>
+              </li>
+              <li class="flex items-start">
+                <i data-lucide="mail" class="h-5 w-5 text-kish-blue mr-3 mt-0.5"></i>
+                <span>info@kishglobal.com</span>
+              </li>
+            </ul>
+            <div class="mt-6">
+              <div class="relative">
+                <input 
+                  type="email" 
+                  placeholder="Subscribe to newsletter" 
+                  class="w-full px-4 py-3 bg-gray-800 rounded-full text-white focus:outline-none focus:ring-2 focus:ring-kish-blue"
+                />
+                <button class="absolute right-1 top-1 bg-gradient-to-r from-kish-blue to-kish-purple text-white px-4 py-2 rounded-full">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+          <p>&copy; <span id="current-year">2023</span> KishGlobal. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+      
+      // Update current year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
